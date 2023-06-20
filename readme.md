@@ -9,13 +9,16 @@ To get started, follow these steps:
 1. Install [Node.js](https://nodejs.org) if you haven't already.
 2. Clone this repository to your local machine or download the source code as a ZIP file.
 3. Open a terminal or command prompt and navigate to the project directory.
-4. Run the following command to install the required dependencies:
+4. Run the following command to install the required dependencies: 
+```
+npm install express
+```
 
 
 ## node server.js
 
-1. Open a web browser and visit `http://localhost:3000`.
-2. Scroll up or down on the page to control the animation playback. Scrolling up will play the animation forward, while scrolling down will play it backward.
-
+1. execute `node server.js`
+2. Open a web browser and visit `http://localhost:3000`. 
+3. Scroll up or down on the page to control the animation playback. Scrolling up will play the animation forward, while scrolling down will play it backward.
 
 ![Alt Text](assets/output.gif)
